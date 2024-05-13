@@ -1,0 +1,35 @@
+.Home {
+    height: 120vh;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2240/https%3A%2F%2Ftodoist.com%2F_next%2Fstatic%2Fimages%2Fbackground-illustration_31391123ca7b512e5c7a8dce6195b0b3.png');
+}
+
+.Home h1 {
+    font-size: 60px;
+    margin-top: -220px;
+}
+
+.Home p {
+    font-size: 18px;
+}
+
+.home-btn {
+    background-color: rgba(240, 0, 0, 0.87);
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.new-img {
+    width: 300px;
+    align-items: left;
+}
+
+.head {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}

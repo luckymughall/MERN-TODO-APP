@@ -1,0 +1,43 @@
+.signup {
+    height: auto;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2240/https%3A%2F%2Ftodoist.com%2F_next%2Fstatic%2Fimages%2Fbackground-illustration_31391123ca7b512e5c7a8dce6195b0b3.png');
+}
+
+.column {
+    height: 100vh;
+}
+
+.sign-up-heading {
+    font-size: xx-large;
+    opacity: 0.8;
+}
+.btn-sign {
+        background-color: rgba(240, 0, 0, 0.87);
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+        outline: none;
+}
+
+
+.input-signup {
+    outline: none;
+    border: none;
+}
+
+.hmm {
+    margin-top: 60px;
+}
+
+
+.label-signin {
+    font-size: large;
+    font-weight:600;
+}
+
+.welcome {
+    margin-top: 95px;
+}

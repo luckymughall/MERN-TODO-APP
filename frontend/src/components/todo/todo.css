@@ -1,0 +1,83 @@
+.todo {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2240/https%3A%2F%2Ftodoist.com%2F_next%2Fstatic%2Fimages%2Fbackground-illustration_31391123ca7b512e5c7a8dce6195b0b3.png');
+}
+
+
+.todo-inputs {
+    border: none;
+    outline: none;
+}
+
+.todo-inputs-div {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Add-btn {
+    background-color: rgba(240, 0, 0, 0.87);
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    outline: none;
+
+}
+
+.todo-card {
+    border: 1px solid black;
+}
+
+
+.todo-card-p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.reic {
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+.card-icon-head {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card-icon-head:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.todo-update {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    height: 75vh;
+    left: 0px;
+    position: fixed;
+    background-color: antiquewhite;
+    background-image: url('https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2240/https%3A%2F%2Ftodoist.com%2F_next%2Fstatic%2Fimages%2Fbackground-illustration_31391123ca7b512e5c7a8dce6195b0b3.png');
+    display: none;
+}
+ .update {
+    height: 100%;
+ }
+
+ .close-update {
+    cursor: pointer;
+    background-color: #ccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
