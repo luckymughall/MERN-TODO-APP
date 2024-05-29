@@ -11,6 +11,7 @@ import { useDispatch } from 'react-redux'
 import { authActions } from './store'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Maybeshownavbar from './components/maybeshownavbar/Maybeshownavbar'
+import AdComponent from './components/AdComponent';
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -34,6 +35,7 @@ const App = () => {
           <Route path='/todo' element={<Todo />} />
         </Routes>
       </Router>
+      <AdComponent />
       <Footer></Footer>
     </div>
   )
