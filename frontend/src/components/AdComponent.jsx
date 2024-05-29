@@ -24,7 +24,7 @@ const AdComponent = () => {
       <ins className="adsbygoogle"
            style={{ display: 'block' }}
            data-ad-client="ca-pub-5769093471889222"
-           data-ad-slot="YOUR_AD_SLOT"
+           data-ad-slot="7885389871"
            data-ad-format="auto"></ins>
     </div>
   );
